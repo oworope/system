@@ -53,6 +53,11 @@
   # Enable fingerprint authentication.
   services.fprintd.enable = true;
 
+  # how is this not enabled by default?
+  environment.systemPackages = [
+    pkgs.killall
+  ];
+
   # Enable sound with pipewire.
   hardware.pulseaudio.enable = false;
   security.rtkit.enable = true;
