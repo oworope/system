@@ -24,5 +24,10 @@
     gdb
     valgrind
     rustup
+
+    cmake
+    meson
+    ninja
+    pkg-config
   ];
 }

@@ -38,11 +38,11 @@
   services.xserver.enable = true;
 
   # Enable the KDE.
-  # services.displayManager.sddm.enable = true;
-  # services.desktopManager.plasma6.enable = true;
+  services.displayManager.sddm.enable = true;
+  services.desktopManager.plasma6.enable = true;
 
   # Enable GDM
-  services.xserver.displayManager.gdm.enable = true;
+  # services.xserver.displayManager.gdm.enable = true;
   # services.xserver.displayManager.gdm.wayland = true;
   # services.xserver.desktopManager.gnome.enable = true;
 

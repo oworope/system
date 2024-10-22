@@ -1,20 +1,20 @@
 { pkgs, ... }:
 
 {
-  programs.niri.enable = true;
+  # programs.niri.enable = true;
   environment.variables.NIXOS_OZONE_WL = "1";
 
-  environment.systemPackages = with pkgs; [
-    mako
-    swaylock
-    swayosd
-    swayidle
-    swaybg
-    wl-clipboard
-    bemenu
-    gammastep
-    darkman
-  ];
+  # environment.systemPackages = with pkgs; [
+  #   mako
+  #   swaylock
+  #   swayosd
+  #   swayidle
+  #   swaybg
+  #   wl-clipboard
+  #   bemenu
+  #   gammastep
+  #   darkman
+  # ];
   hardware.graphics = {
     enable = true;
     extraPackages = with pkgs; [

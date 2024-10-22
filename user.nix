@@ -34,8 +34,11 @@
       ranger
 
       openttd
-      eepers
+      gzdoom
+      ioquake3
+      vkquake
 
+      krita
       # gimp
       # godot_4
       # blender
