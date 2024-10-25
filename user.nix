@@ -4,9 +4,6 @@
   # Install firefox.
   programs.firefox.enable = true;
 
-  # Install waybar
-  programs.waybar.enable = true;
-
   # Install fish shell
   programs.fish.enable = true;
 

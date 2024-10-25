@@ -21,6 +21,7 @@
       modules = [
         ./configuration.nix
         ./niri.nix
+        ./dwl.nix
         ./user.nix
         ./dev.nix
         ./system.nix
